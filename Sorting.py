@@ -9,5 +9,5 @@ def sort(arr):
     return arr
 
 if __name__ == "__main__":
-    arr = raw_input("Give me list of numbers: ").split(" ")
+    arr = raw_input("Give me list of numbers: ").split()
     print sort(arr)
